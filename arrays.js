@@ -21,14 +21,7 @@ function addElementToEndOfArray(array, element){
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
   return array
-}
-
-function destructivelyRemoveElementFromEndOfArray(array){
- array.slice(0, array.length - 1)
- return array
-}
-
-function removeElementFromEndOfArray(array){
-  array.slice(0, array.length -1)
-  return array
-}
+} 
+function accessElementInArray(array, index){
+return array[index]
+]
